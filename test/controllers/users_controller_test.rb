@@ -3,7 +3,7 @@ require 'test_helper'
 class UsersControllerTest < ActionController::TestCase
 
   def setup
-    @base_title = "Ruby on Rails Tutorial Sample App"
+    @base_title = "timeLine"
     @user = users(:stephen)
     @other_user = users(:archer)
   end
