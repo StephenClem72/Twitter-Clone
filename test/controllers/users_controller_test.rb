@@ -3,7 +3,7 @@ require 'test_helper'
 class UsersControllerTest < ActionController::TestCase
 
   def setup
-    @base_title = "timeLine"
+    @base_title = "spanLine"
     @user = users(:stephen)
     @other_user = users(:archer)
   end
